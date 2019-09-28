@@ -1,0 +1,370 @@
+/*Considerações Gerais*/
+	body, html{
+		height: 100%;
+		overflow-x: hidden;
+        font-family: phosphorus;
+        font-stretch: semi-expanded;
+	}
+
+
+/*Estilos do Cabeçalho*/
+
+	header{
+		width: 100%;
+	}
+	#logo{
+		padding: 0;
+		margin: 0;
+	}
+	#cadastrese:hover{
+		color:rgb(241, 173, 24) !important;
+		-webkit-transition: color 0.5s;
+		-ms-transition: color 0.5s;
+		transition: color 0.5s;
+	}
+	.menu{
+		padding-left:100px !important;
+	}
+	#logo{
+		width: 200px;
+        background-color:white;
+	}
+
+/*Conteúdo*/
+	.box{
+		height: 100%;
+		opacity: 0.9;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+	}
+	.box2{
+		width: 100%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+	}
+
+	.btn2{
+		display:none;
+	}
+
+/*---Primeiro Conteúdo---*/
+	#container1{
+		background-image: url('../imagens/fundo2low.jpg'); 
+	}
+
+	#C1main h1{
+		color: cornsilk;
+		text-shadow: 5px 5px 5px  #000 !important;
+	}
+
+	#cliqueAqui a{
+		border-color:#fff !important;
+		color: #fff;
+		-webkit-transition:transform  0.9s, color 0.9s, box-shadow 0.8s;
+		-ms-transition:transform 0.9s, color 0.9s, box-shadow 0.8s;
+		transition: transform 0.5s, color 0.9s, box-shadow 0.8s;
+		box-shadow: 0px 0px 0px  #000 !important;
+	}
+	#cliqueAqui a:hover{
+        border-color: rgb(241, 173, 24);
+		color:rgb(241, 173, 24);
+		-webkit-transform: scale(1.2);
+		-ms-transform: scale(1.2);
+		transform: scale(1.2);
+		-webkit-transition:transform  0.9s, color 0.9s , box-shadow 0.9s;
+		-ms-transition:transform 0.9s, color 0.9s , box-shadow 0.9s;
+		transition: transform 0.5s, color 0.9s, box-shadow 0.8s;
+		box-shadow: 3px 3px 5px  #000 !important;
+	}
+
+
+/*---Segundo Conteúdo---*/
+
+	@media (min-width: 768px) {
+	 }
+
+	.carousel-multi-item-2 .card img {
+	border-radius: 2px; 
+	}
+
+	#zoom {
+		overflow: hidden;
+	}
+
+	#zoom img {
+		max-width: 100%;
+		-moz-transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	#zoom:hover img {
+		-moz-transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+	.imagens{
+		width: 100%;
+	}
+
+	#carousel1{
+		display:block;
+	}
+	#carousel2{
+		display:none;
+	}
+
+/*---terceiro Conteúdo---*/
+	#container3{
+		background-image: url('../imagens/fundo1low.jpg');
+	}
+	#exampleFormControlTextarea6{
+		width: 100%;
+	}
+/*---Quarto Conteúdo---*/
+
+
+/*---quinto Conteúdo---*/ 	
+	#container5{
+		background-image: url('../imagens/img5low.jpg'); 
+	}
+
+/*---sexto Conteúdo---*/ 	
+	footer a{
+		color: black;
+	}
+	#up{
+		cursor: pointer;
+		visibility: hidden;
+	}
+
+/*---PAG Pre_encomenda Conteúdo---*/ 	
+#container6{
+	background-image: url('../imagens/img5low.jpg'); 
+}
+/* ----galeria---- */
+/* The Modal (background) */
+ #myModal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: black;
+  }
+  
+  /* Modal Content */
+  #modalContent {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	width: 90%;
+	max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+	color: white;
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-size: 35px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #999;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  
+  /* Hide the slides by default */
+  .mySlides {
+	display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* Caption text */
+  .caption-container {
+	text-align: center;
+	background-color: black;
+	padding: 2px 16px;
+	color: white;
+  }
+  img.demo {
+	opacity: 0.6;
+
+  }
+  
+  .active,
+  .demo:hover {
+	opacity: 1;
+  }
+  
+  img.hover-shadow {
+	transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+.fa-heart:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition:transform  0.5s, box-shadow 0.5s;
+    -ms-transition:transform 0.5s, color 0.5s , box-shadow 0.5s;
+    transition: transform 0.5s, color 0.5s, box-shadow 0.5s;
+    transition: transform 0.5s, color 0.5s, box-shadow 0.5s;
+}
+
+/* Efeito CSS para div*/
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  animation-name: zoomIn;
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+/*No media query for `xs` since this is the default in Bootstrap*/
+/*Extra small -
+<576px	Small -sm
+≥576px	Medium -md
+≥768px	Large	-lg
+≥992px	Extra large -xl
+≥1200px*/
+
+@media (max-width: 576px) { 
+	#DIVMaps{
+		display:none; 
+	}
+	#logo{
+		width: 150px;
+	}
+	#C1main{
+		text-align: end;
+		width: 100% !important;
+	}
+	#ocultar{
+		display:none;
+	}
+	#center{
+		width: 100% !important;
+	}
+	#container3 form{
+		display: none;
+	}
+	#carousel1{
+		display:none;
+	}
+	#carousel2{
+		display:block;
+	}
+	
+	#up{
+		visibility: visible !important;
+	}
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) { 
+	#ocultar{
+		display:none;
+	}
+	#center{
+		width: 100% !important;
+	}
+	#carousel1{
+		display:none;
+	}
+	#carousel2{
+		display:block;
+	}
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+	.carousel-multi-item-2 .col-md-3 {
+		float: left;
+		width: 25%;
+		max-width: 100%; }
+	
+	#center{
+		width: 100% !important;
+	}
+	
+}
+	
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1999px) { 
+	.carousel-multi-item-2 .col-md-3 {
+		float: left;
+		width: 25%;
+		max-width: 100%; }
+
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	.carousel-multi-item-2 .col-md-3 {
+		float: left;
+		width: 25%;
+		max-width: 100%; }
+ }
