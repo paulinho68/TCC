@@ -1,0 +1,52 @@
+
+th{
+    font-size: 1em;
+}
+
+.collapse th{
+    font-size: 0.7em;
+}
+thead th{
+    font-size: 0.8em;
+    text-decoration: underline;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+/*No media query for `xs` since this is the default in Bootstrap*/
+/*Extra small -
+<576px	Small -sm
+≥576px	Medium -md
+≥768px	Large	-lg
+≥992px	Extra large -xl
+≥1200px*/
+
+@media (max-width: 576px) { 
+    th{
+        font-size: 0.7em;
+    }
+    
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) { 
+    th{
+        font-size: 0.7em;
+    }
+    
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+
+	
+}
+	
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1999px) { 
+
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+ }
